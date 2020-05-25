@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord Webhook Sender</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+    <div id="header">
+      <h>Discord Webhook Sender</h>
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p>Webhook Link:</p><input type='text' id="link" placeholder="WebHook URL her. https://discordapp.com/api/webhooks/462759446225879041/CX-NNGFq5zjht82fQSJUTN2Or2DGq8UTwoIlhHgZ7lTJ6-wlHlRshIRuOC0nE6frfSwG">
+        <p>Bot navn:</p><input type="text" id="username" placeholder="Skriv brugernavnet på brugeren her * OPTIONAL" value="WebHookSender">
+        <p>Besked:</p><input type="text" id="content" placeholder="Skriv beskeden her">
+        <br>
+        <button id="btn">Send</button>
+        <center>
+       <!--JS log in the works atm-->
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+  <div id="footer">
+    Copyright &copy; <a href="http://github.com/ezague/">Ezague</a>
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
